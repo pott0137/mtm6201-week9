@@ -164,7 +164,62 @@
           </div><!-- closes .bg-secondary -->
         </div> <!-- closes .row -->
       </section>
+      <!-- Contact Section -->
+      <section class="container-xl my-4" id="contact">
+        <h2 class="dispaly-4">Contact Us</h2>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <h3>Send us a message</h3>
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="username">
+              </div> <!-- closes name div -->
+              <div class="mb-3">
+                <label for="useremail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="useremail">
+              </div> <!-- closes email div -->
+              <div class="mb-3">
+                <label for="useremail" class="form-label">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" class="form-control rounded-0"></textarea>
+              </div> <!-- closes message div -->
+              <button type="submit" class="btn btn-dark text-primary rounded-0">Send</button>
+            </form>
+          </div>
+          <div class="col-md-12 order-md-last">
+            <h3>Hours of Operation</h3>
+            <table class="table table-bordered border-dark">
+              <thead class="bg-secondary text-center">
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday - Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> <!-- closes hours div -->
+          <div class="col-md-6">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d281037.62680722954!2d-75.574221401042!3d45.29776857071141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1668095731070!5m2!1sen!2sca" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="bg-dark text-primary py-4 mt-4">
+      <div class="container-xl">
+        <p>&copy; Copyright, Three Star Media</p>
+        <p>All images are taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
